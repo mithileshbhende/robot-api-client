@@ -14,6 +14,7 @@ public interface RobotCommand {
 	public RobotStateRes informReachedDesk();
 	public RobotStateRes informPackageDelivered();
 	public RobotStateRes informLockerOpened();
+	public RobotStateRes informReachedBase();
 	public RobotStateRes resetState();
 
 	
